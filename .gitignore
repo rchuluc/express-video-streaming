@@ -47,3 +47,7 @@ dist/
 
 temp/
 
+#bucket for videos
+bucket/
+
+.DS_Store

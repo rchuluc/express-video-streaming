@@ -1,2 +1,3 @@
-# node-express
-NodeJS and Express template repository - Production Ready
+# Express video streaming server
+
+NodeJS and Express video streaming Proof of Concept (POC)
