@@ -7,5 +7,6 @@ const VIEW_DIR = join(__dirname, '..', 'views')
 
 streamRouter.get('/', express.static(VIEW_DIR))
 streamRouter.get('/video/:id', StreamController.streamVideo)
+streamRouter.get('/track/:id', StreamController.streamAudio)
 
 module.exports = streamRouter
