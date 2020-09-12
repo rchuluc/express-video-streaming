@@ -1,11 +1,10 @@
 {
-  "name": "node-server",
+  "name": "node-streaming",
   "version": "1.0.0",
-  "description": "NodeJS-Express template",
+  "description": "NodeJS-Express streaming poc",
   "scripts": {
     "test": "mocha",
-    "start": "pm2 start app.js",
-    "kill": "pm2 stop app.js",
+    "start": "node ./bin/www.js",
     "deploy": "",
     "dev": "nodemon ./bin/www.js"
   },
@@ -30,12 +29,10 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "morgan": "^1.10.0",
-    "pm2": "^4.2.3"
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "husky": "^4.2.3",
     "mocha": "^7.1.1",
     "nodemon": "^2.0.2"
   }
